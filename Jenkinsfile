@@ -12,6 +12,7 @@ pipeline {
                     ls
                     """
                     log.info 'Starting'
+                    newlog.warn 'warning'
                 }
             }
         }
