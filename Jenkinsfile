@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-library identifier: 'mylib@master'
+library 'mylib@master'
 pipeline {
     agent none
     stages {
@@ -12,7 +12,6 @@ pipeline {
                     ls
                     """
                     log.info 'Starting'
-                    log.warning 'Nothing to do!'
                 }
             }
         }
